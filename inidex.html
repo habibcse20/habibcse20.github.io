@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aiden Kim | Junior AI Developer</title>
+
+  <!-- Professional Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Particles Background -->
+  <canvas id="particles"></canvas>
+
+  <!-- Navbar -->
+  <header class="header" id="top">
+   <nav class="nav">
+  <a class="logo" href="#top">Aiden<span>Kim</span></a>
+
+  <div class="nav-links">
+    <a class="nav-link active" href="#about">About</a>
+    <a class="nav-link" href="#skills">Skills</a>
+    <a class="nav-link" href="#projects">Projects</a>
+    <a class="nav-link" href="#contact">Contact</a>
+  </div>
+
+  <button id="darkModeToggle" class="dark-btn">🌙</button>
+</nav>
+
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="animate-text">Junior AI Developer</h1>
+        <h2 class="animate-text delay-1">Aiden Kim</h2>
+        <p class="animate-text delay-2">
+          Passionate AI Developer building intelligent applications with Python, NLP, and computer vision.
+          Strong background in ML model development, data pipelines, and deployment.
+        </p>
+        <a class="btn" href="#projects">View Projects</a>
+      </div>
+      <div class="hero-image">
+        <img src="assets/profile.png" alt="Aiden Kim">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I’m a Junior AI Developer focused on building scalable ML solutions. I enjoy solving real-world problems
+          using NLP, computer vision, and deep learning. I’m also experienced in data preprocessing, model evaluation,
+          and deployment using modern tools.
+        </p>
+        <p>
+          I’m currently exploring production-level AI systems and improving my skills in MLOps and cloud deployment.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">Python</div>
+      <div class="skill-card">PyTorch</div>
+      <div class="skill-card">TensorFlow</div>
+      <div class="skill-card">NLP</div>
+      <div class="skill-card">Computer Vision</div>
+      <div class="skill-card">ML Ops</div>
+      <div class="skill-card">SQL</div>
+      <div class="skill-card">Docker</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card" onclick="openModal(1)">
+        <div class="project-card-inner">
+          <h3>Smart Resume Analyzer</h3>
+          <p>AI-powered resume scoring using NLP to extract skills, experience, and match job descriptions.</p>
+          <span class="project-tag">NLP</span>
+        </div>
+      </div>
+
+      <div class="project-card" onclick="openModal(2)">
+        <div class="project-card-inner">
+          <h3>Image Captioning Web App</h3>
+          <p>Generate captions from images using CNN + Transformer-based encoder-decoder model.</p>
+          <span class="project-tag">CV</span>
+        </div>
+      </div>
+
+      <div class="project-card" onclick="openModal(3)">
+        <div class="project-card-inner">
+          <h3>AI Chatbot (RAG)</h3>
+          <p>Retrieval-Augmented Generation chatbot using LangChain and vector databases.</p>
+          <span class="project-tag">RAG</span>
+        </div>
+      </div>
+
+      <div class="project-card" onclick="openModal(4)">
+        <div class="project-card-inner">
+          <h3>Stock Price Predictor</h3>
+          <p>LSTM-based stock price prediction with time-series forecasting and visualization.</p>
+          <span class="project-tag">Time Series</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Project Modal -->
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Email</h3>
+        <p>ai.developer@example.com</p>
+      </div>
+      <div class="contact-card">
+        <h3>GitHub</h3>
+        <p>github.com/yourusername</p>
+      </div>
+      <div class="contact-card">
+        <h3>LinkedIn</h3>
+        <p>linkedin.com/in/yourprofile</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Aiden Kim • Junior AI Developer</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
