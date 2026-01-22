@@ -6,9 +6,9 @@ const projects = [
   {
     id: 1,
     title: "Smart Resume Analyzer",
-    desc: "NLP-based resume analyzer that extracts skills, experience, and matches job descriptions using transformers.",
+    desc: "NLP-based resume analyzer that extracts skills, experience, and matches job descriptions using Python and AI/ML.",
     tech: ["Python", "NLP", "Transformers", "Flask"],
-    link: "#"
+    link: "https://github.com/habibcse20/Smart-Resume-Analyzer"
   },
   {
     id: 2,
@@ -191,3 +191,4 @@ darkBtn.addEventListener("click", () => {
     el.style.color = darkMode ? "rgba(255,255,255,0.85)" : "#111";
   });
 });
+
