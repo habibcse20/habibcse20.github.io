@@ -13,8 +13,7 @@ const projects = [
   {
     id: 2,
     title: "Smart Multi-functional Question Generator",
-    desc: `An interactive, AI-powered Question Generator web application that automatically generates MCQs, Fill-in-the-Blanks, and True/False questions** from text or PDF study materials.  
-Built with Python, Flask, and Machine Learning (TF-IDF).`,
+    desc: "An interactive, AI-powered Question Generator web application that automatically generates MCQs, Fill-in-the-Blanks, and True/False questions from text or PDF study materials using Python, Flask, and Machine Learning (TF-IDF).",
     tech: ["Python", "Flask", "Machine Learning", "PyPDF2"],
     link: "https://github.com/habibcse20/Multi-functional-Question-Generator"
   },
@@ -192,6 +191,7 @@ darkBtn.addEventListener("click", () => {
     el.style.color = darkMode ? "rgba(255,255,255,0.85)" : "#111";
   });
 });
+
 
 
 
