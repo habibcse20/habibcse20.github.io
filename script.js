@@ -22,7 +22,7 @@ const projects = [
     title: "Fetal Distress Detection Using CTG & Machine Learning",
     desc: "A machine learning–based healthcare system designed to detect fetal distress from Cardiotocography (CTG) data.",
     tech: ["Python", "ML", "Pandas", "NumPy","Scikit-Learn","Matplotlib"],
-    link: "#"
+    link: "https://github.com/habibcse20/Fetal-Distress-Detection-Using-CTG-Machine-Learning/tree/main"
   },
   {
     id: 4,
@@ -191,6 +191,7 @@ darkBtn.addEventListener("click", () => {
     el.style.color = darkMode ? "rgba(255,255,255,0.85)" : "#111";
   });
 });
+
 
 
 
