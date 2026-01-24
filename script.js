@@ -19,9 +19,9 @@ const projects = [
   },
   {
     id: 3,
-    title: "AI Chatbot (RAG)",
-    desc: "Retrieval-Augmented Generation chatbot using LangChain, FAISS, and vector databases.",
-    tech: ["LangChain", "RAG", "FAISS", "Python"],
+    title: "Fetal Distress Detection Using CTG & Machine Learning",
+    desc: "A machine learning–based healthcare system designed to detect fetal distress from Cardiotocography (CTG) data.",
+    tech: ["Python", "ML", "Pandas", "NumPy","Scikit-Learn","Matplotlib"],
     link: "#"
   },
   {
@@ -191,6 +191,7 @@ darkBtn.addEventListener("click", () => {
     el.style.color = darkMode ? "rgba(255,255,255,0.85)" : "#111";
   });
 });
+
 
 
 
