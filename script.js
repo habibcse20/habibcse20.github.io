@@ -26,9 +26,9 @@ const projects = [
   },
   {
     id: 4,
-    title: "Stock Price Predictor",
-    desc: "LSTM-based stock price prediction with data visualization and model evaluation metrics.",
-    tech: ["LSTM", "Time Series", "Pandas", "Matplotlib"],
+    title: "AI Image Caption Generator",
+    desc: "AI Image Caption Generator – Web app that produces accurate natural-language descriptions for uploaded images using a trained CNN-LSTM model.",
+    tech: ["Python", "TansorFlow", "Gradio", "NumPy", "Pillow"],
     link: "#"
   }
 ];
@@ -191,6 +191,7 @@ darkBtn.addEventListener("click", () => {
     el.style.color = darkMode ? "rgba(255,255,255,0.85)" : "#111";
   });
 });
+
 
 
 
