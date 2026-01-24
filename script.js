@@ -29,7 +29,7 @@ const projects = [
     title: "AI Image Caption Generator",
     desc: "AI Image Caption Generator – Web app that produces accurate natural-language descriptions for uploaded images using a trained CNN-LSTM model.",
     tech: ["Python", "TansorFlow", "Gradio", "NumPy", "Pillow"],
-    link: "#"
+    link: "https://github.com/habibcse20/Interactive-AI-Image-Caption-Generator/tree/main"
   }
 ];
 
@@ -191,6 +191,7 @@ darkBtn.addEventListener("click", () => {
     el.style.color = darkMode ? "rgba(255,255,255,0.85)" : "#111";
   });
 });
+
 
 
 
